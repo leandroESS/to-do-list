@@ -1,0 +1,42 @@
+body{
+    background-color: pink;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+*{
+    font-family: 'Righteous', cursive;
+}
+
+input{
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+button{
+    color: #5bc4f7;
+    border-radius: 5px;
+    border: 4px solid #5bc4f7;
+}
+
+#tarefas {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .tarefa-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  :checked + label {
+    text-decoration: line-through;
+    color: grey;
+  }
+
+
+
